@@ -1,0 +1,29 @@
+body {
+  color: black;
+  font-size: 30;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: grid;
+  grid-template-columns: 30% auto;
+  grid-row: auto auto auto;
+  grid-template-areas: "header header"
+                       "aside main"
+                       "footer footer";
+}
+header {
+  background-color: blue;
+  grid-area: header;
+}
+
+main {
+  background-color: blueviolet;
+  grid-area: main;
+}
+
+aside {
+  background-color: chartreuse;
+  grid-area: aside;
+}
+footer {
+  background-color: aqua;
+  grid-area: footer;
+}

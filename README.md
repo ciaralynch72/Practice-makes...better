@@ -3,7 +3,7 @@
 Welcome ciaralynch72,
 
 
-# Preserved Passions #
+# Kiworth Farmer's Market #
 This website was created with the hope of building community self sufficency by passing along skills available in the parish to those who wish to learn them and continue to practice them. 
 
 Throughout the pandemic people turned towards more traditional skill which were once common place in the daily lives of our or community. People began to conciously think about what was really important to them in life and what was achieveable in their own four walls. Gardens were landscaped, sourdough starters popped up in presses of new bakers and DIY became a passion to many. 
