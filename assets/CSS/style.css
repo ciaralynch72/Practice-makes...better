@@ -1,17 +1,22 @@
+* {
+  box-sizing: border-box;
+}
 body {
   color: black;
   font-size: 30;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   display: grid;
-  grid-template-columns: 30% auto;
-  grid-row: auto auto auto;
+  grid-template-columns: auto auto;
+  grid-row: 50% auto;
   grid-template-areas: "header header"
                        "aside main"
-                       "footer footer";
+                       "footer p";
 }
 header {
   background-color: blue;
   grid-area: header;
+  float: right;
+
 }
 
 main {
@@ -27,3 +32,9 @@ footer {
   background-color: aqua;
   grid-area: footer;
 }
+p {
+  background-color: cornflowerblue;
+  grid-area: p;
+}
+
+
