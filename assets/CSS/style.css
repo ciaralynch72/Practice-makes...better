@@ -7,10 +7,10 @@ body {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   display: grid;
   grid-template-columns: auto auto;
-  grid-row: 50% auto;
+  grid-row: auto auto auto;
   grid-template-areas: "header header"
                        "aside main"
-                       "footer p";
+                       "div div";
 }
 header {
   background-color: blue;
@@ -28,13 +28,11 @@ aside {
   background-color: chartreuse;
   grid-area: aside;
 }
-footer {
+div {
   background-color: aqua;
-  grid-area: footer;
+  grid-area: div;
+  display: inline;
 }
-p {
-  background-color: cornflowerblue;
-  grid-area: p;
-}
+
 
 
