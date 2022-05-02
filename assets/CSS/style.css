@@ -1,38 +1,46 @@
-* {
-  box-sizing: border-box;
-}
 body {
-  color: black;
-  font-size: 30;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 24px;
+  color: navy;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid {
   display: grid;
-  grid-template-columns: auto auto;
-  grid-row: auto auto auto;
+  grid-auto-columns: 50% 50%;
   grid-template-areas: "header header"
-                       "aside main"
-                       "div div";
+                      "main main"
+                      ". mission"
+                      "vision .";
+  
+  ;                  
 }
-header {
-  background-color: blue;
+
+.header {
   grid-area: header;
-  float: right;
+  background-color: aquamarine;
+  height: 120px;
 
 }
+ .Photo1 {
+   grid-area: Photo1;
+   background-color: coral;
+   height: 200px;
+ }
 
-main {
-  background-color: blueviolet;
-  grid-area: main;
-}
+ main {
+   grid-area: main;
+   background-color: blueviolet;
+   height: 400;
+ }
 
-aside {
-  background-color: chartreuse;
-  grid-area: aside;
-}
-div {
-  background-color: aqua;
-  grid-area: div;
-  display: inline;
-}
+ .mission {
+   grid-area: mission;
+   background-color: blue;
+   height:200px;
+   }
 
-
-
+   .vision {
+      background-color: darkslategray;
+      grid-area: vision;
+      height: 200px;
+   }
