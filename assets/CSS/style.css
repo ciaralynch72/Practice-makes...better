@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 body {
   font-size: 24px;
   color: navy;
@@ -5,42 +8,39 @@ body {
 }
 
 .grid {
-  display: grid;
-  grid-auto-columns: 50% 50%;
-  grid-template-areas: "header header"
-                      "main main"
-                      ". mission"
-                      "vision .";
-  
-  ;                  
+  display: inline-grid;
+  gap: 5px;        
 }
 
-.header {
-  grid-area: header;
-  background-color: aquamarine;
-  height: 120px;
 
 }
  .Photo1 {
-   grid-area: Photo1;
+  
    background-color: coral;
    height: 200px;
  }
 
  main {
-   grid-area: main;
+   
    background-color: blueviolet;
    height: 400;
  }
 
  .mission {
-   grid-area: mission;
+  
    background-color: blue;
    height:200px;
+   width: 50%;
    }
 
    .vision {
       background-color: darkslategray;
-      grid-area: vision;
+      width: 50%;
       height: 200px;
+   }
+
+   header {
+     background-color: antiquewhite;
+     color: blueviolet;
+     height: 150px;
    }
