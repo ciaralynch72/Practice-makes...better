@@ -1,11 +1,17 @@
 * { 
     box-sizing: border-box; 
+
+}
+
+body {
+    margin: 0;
+    height: 100vh;
 }
 
 .grid {
     display: grid;
     grid-template-columns: repeat (3, 1fr);
-    grid-template-rows: 30% 200px auto;
+    grid-template-rows: 2fr 8fr 1fr;
     grid-gap: 1em;
     }
     
@@ -16,18 +22,6 @@
     }
 
     
-.grid {
-    display: grid;
-    grid-template-columns: repeat (3, 1fr);
-    grid-template-rows: 30% 200px auto;
-    grid-gap: 1em;
-    }
-    
-    .grid > * {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    }
 
 header,
 nav,
