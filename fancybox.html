@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
-	<link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="assets/CSS/style.css">
+
+<link rel="stylesheet" href="fancybox.css">
     <title>Gallery</title>
 </head>
 <body>
@@ -31,22 +31,28 @@
             </ul>
         </nav>
     </header>
-    <section id="container">
- <div>
-     <div >
-    <a data-fancybox="Gallery" href="images/Chicken.jpg"><img src="images/Chicken.jpg" alt="image 1"></a>
+ <div class="container">
+  
+        <a href="assets/CSS/fancybox_images/chicken_fm.jpg" data-fancybox="gallery" data-caption=“caption 1">
+            <img src="assets/CSS/fancybox_images/chicken_fm.jpg" alt="chicken"/></a>
+     
+        <a href="assets/CSS/fancybox_images/eggs_fm.webp" data-fancybox="gallery" data-caption="caption 1">
+            <img src="assets/CSS/fancybox_images/eggs_fm.webp" alt="eggs"/></a>
+  
+    
+        <a href="assets/CSS/fancybox_images/fm_fm.webp" data-fancybox="gallery" data-caption=“caption 1">
+            <img src="assets/CSS/fancybox_images/fm_fm.webp" alt="farmers market" /></a>
+    
+    
+        <a href="assets/CSS/fancybox_images/field_fm.webp" data-fancybox="gallery" data-caption="caption 2">
+            <img src="assets/CSS/fancybox_images/field_fm.webp" alt="lovely field"/></a>
+     
 
-<div>
-    <a data-fancybox="Gallery" href="images/eggs.jpg"><img src="images/eggs.jpg" alt="image 3"></a>
-</div>
-<div>
-    <a data-fancybox="Gallery" href="images/Field.jpg"><img src="images/Field.jpg" alt="image 4"></a>
-</div>
-<div>
-    <a data-fancybox="Gallery" href="images/watering.jpg"><img src="images/watering.jpg" alt="image 5"></a>
-</div>
-    </div>
-</section>
+        <a href="assets/CSS/fancybox_images/flowers-fm.webp" data-fancybox="gallery" data-caption=“caption 1">
+            <img src="assets/CSS/fancybox_images/flowers_tn.jpg" alt="flowers" /></a>
+   
+     
+ </div>
 
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
